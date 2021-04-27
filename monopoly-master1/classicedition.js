@@ -157,5 +157,6 @@ exports.transtext = transtext
 exports.luxurytax = luxurytax
 exports.citytax = citytax
 
+exports.square = square
 exports.communityChestCards = communityChestCards
 exports.chanceCards = chanceCards

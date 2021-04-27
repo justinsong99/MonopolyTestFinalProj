@@ -26,4 +26,7 @@ Things we have mock tested:
 - Trade
 - addamount
 - subtractamount
--
+- gotojail
+- gobackthreespaces
+- payeachplayer
+- collectfromeachplayer

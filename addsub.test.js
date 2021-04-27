@@ -72,8 +72,3 @@ test('Test subtracting negative amount from a player', () => {
         subtractamount(amt, cause)
     }).toThrow();
 })
-
-
-
-
-

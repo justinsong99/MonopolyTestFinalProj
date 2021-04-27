@@ -3022,8 +3022,10 @@ exports.player = player
 exports.pcount = pcount
 exports.turn = turn
 exports.doublecount = doublecount
-
 exports.updateMoney = updateMoney
+exports.updatePosition = updatePosition
+exports.updateOwned = updateOwned
+exports.land = land
 
 //window.setup = setup
 

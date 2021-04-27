@@ -29,7 +29,7 @@ test('Test valid pay', () => {
     expect(updateMoney).toHaveBeenCalledTimes(1);
     expect(p.money).toBe(1400)
     expect(r).toBe(true)
-    /expect(p.creditor).toBe(-1)
+    expect(p.creditor).toBe(-1)
 })
 
 test('Test pay with too much money', () => {

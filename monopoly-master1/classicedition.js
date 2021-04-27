@@ -156,3 +156,6 @@ exports.utiltext = utiltext
 exports.transtext = transtext
 exports.luxurytax = luxurytax
 exports.citytax = citytax
+
+exports.communityChestCards = communityChestCards
+exports.chanceCards = chanceCards

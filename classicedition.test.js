@@ -1,7 +1,7 @@
 const fs = require("fs");
 window.document.body.innerHTML = fs.readFileSync("./monopoly-master1/index.html");
 const { addAlert } = require('./monopoly-master1/monopoly')
-const { Square, Card, corrections, utiltext, transtext, citytax, luxurytax } = require('./monopoly-master1/classicedition')
+const { Square, Card, corrections, utiltext, transtext, citytax, luxurytax, chanceCards } = require('./monopoly-master1/classicedition')
 
 // No way to black-box test the Square class itself
 // The following tests are for white-box branch coverage testing
@@ -77,4 +77,8 @@ test('Test valid transtext function', () => {
 //Luxury and city tax will be tested with GUI testing as they reference DOM elements
 test('', () => {
     //luxurytax()
+})
+
+test("idk", () => {
+    console.log(chanceCards[1])
 })

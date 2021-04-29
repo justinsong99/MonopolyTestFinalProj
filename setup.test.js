@@ -53,3 +53,4 @@ test("test start game click - 4 players", async () => {
     pti.write([...jsCoverage, ...cssCoverage], { includeHostname: true , storagePath: './.nyc_output' })
     await browser.close()
 })
+
